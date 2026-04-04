@@ -1,0 +1,11 @@
+### Frontend
+- React
+- Vite
+- Tailwind CSS
+
+### Data & Backend
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- FastAPI

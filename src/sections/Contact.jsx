@@ -7,7 +7,7 @@ export default function Contact() {
       </h2>
 
       <p className="text-gray-400 mb-6">
-        Abierto a oportunidades como Data Analyst / BI Analyst / Full Stack Developer
+        Abierto a oportunidades como Data Analyst / BI Analyst. Si estás interesado en colaborar o tienes alguna pregunta, no dudes en contactarme.
       </p>
 
       <div className="flex justify-center gap-4">

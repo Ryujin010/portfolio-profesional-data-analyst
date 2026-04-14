@@ -3,11 +3,12 @@ export default function Hero() {
     <section className="text-center py-20 px-6">
 
       <h1 className="text-5xl font-bold mb-4">
-        Data Analyst & Full Stack Developer
+        Data Analyst {/* & Full Stack Developer */}
       </h1>
 
       <p className="text-gray-400 max-w-2xl mx-auto">
-        Transformo datos en decisiones estratégicas y construyo soluciones web completas basadas en análisis.
+        Como Analista de Datos con conocimientos y habilidades web, me especializo en transformar datos complejos en insights claros y accionables.
+        transformando los datos en decisiones estratégicas basadas en análisis.
       </p>
 
       <div className="flex justify-center gap-4 mt-6">

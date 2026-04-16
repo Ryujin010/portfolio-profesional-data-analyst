@@ -4,7 +4,7 @@ import numpy as np
 
 # CONFIG
 st.set_page_config(
-    page_title="Data Analysis Project",
+    page_title="Data Analysis Dashboard",
     layout="wide"
 )
 
@@ -15,7 +15,7 @@ st.markdown("Análisis exploratorio de datos para la toma de decisiones")
 # SIDEBAR
 st.sidebar.header("Filtros")
 
-# DATA (ejemplo)
+# DATA
 data = pd.DataFrame({
     "Mes": ["Ene", "Feb", "Mar", "Abr", "May"],
     "Ventas": np.random.randint(100, 500, 5)
@@ -28,7 +28,10 @@ filtered_data = data[data["Mes"] == selected]
 
 # KPI
 st.subheader("📈 KPI Principal")
-st.metric("Ventas del mes", int(filtered_data["Ventas"]))
+
+ventas_mes = filtered_data["Ventas"].iloc[0]
+
+st.metric("Ventas del mes", int(ventas_mes))
 
 # CHART
 st.subheader("📊 Tendencia de ventas")

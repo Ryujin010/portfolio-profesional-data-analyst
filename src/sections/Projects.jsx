@@ -6,7 +6,7 @@ const projects = [
     tech: ["Python", "Pandas", "Matplotlib", "Seaborn", "Streamlit"],
     image: "/images/earthquake.png",
     github: "https://github.com/Ryujin010/Global_Earthquake_Analysis",
-    live: "",
+    live: "https://jesus-enrique-leon-arteaga-portfolio-profesional-data-analyst.streamlit.app/",
     featured: true,
   },
   {
@@ -16,7 +16,7 @@ const projects = [
     tech: ["Python", "Pandas", "Scikit-learn", "SciPy"],
     image: "/images/capstone.png",
     github: "https://github.com/Ryujin010/data-analysis-capstone-tripleten",
-    live: "",
+    live: "https://jesus-enrique-leon-arteaga-portfolio-profesional-data-analyst.streamlit.app/",
   },
   {
     title: "Churn Prediction",
@@ -34,7 +34,7 @@ const projects = [
     tech: ["Python", "Statsmodels", "SQL"],
     image: "/images/ab.png",
     github: "https://github.com/Ryujin010/marketing-funnel-aab-test",
-    live: "",
+    live: "https://jesus-enrique-leon-arteaga-portfolio-profesional-data-analyst.streamlit.app/",
     featured: true,
   },
   {
@@ -44,7 +44,7 @@ const projects = [
     tech: ["Power BI", "DAX"],
     image: "/images/youtube.png",
     github: "https://github.com/Ryujin010/proyecto_dashboard_youtube",
-    live: "",
+    live: "https://jesus-enrique-leon-arteaga-portfolio-profesional-data-analyst.streamlit.app/",
   },
   {
     title: "Video Game Sales Analysis",
@@ -53,7 +53,7 @@ const projects = [
     tech: ["Python", "Pandas"],
     image: "/images/games.png",
     github: "https://github.com/Ryujin010/Proyecto-Tienda-de-Video-Juegos",
-    live: "",
+    live: "https://jesus-enrique-leon-arteaga-portfolio-profesional-data-analyst.streamlit.app/",
   },
 ];
 

@@ -3,9 +3,20 @@
 @tailwind utilities;
 
 /* Estilo base profesional */
-body {
+/*body {
   margin: 0;
   font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
   background-color: #0f172a;
   color: white;
+}*/
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #020617, #0f172a);
+  color: white;
+}
+
+/* Scroll suave */
+html {
+  scroll-behavior: smooth;
 }
